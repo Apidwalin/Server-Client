@@ -1,0 +1,12 @@
+{
+    "server_id": "29916",
+    "gameid" : "dwalinzamak01",
+    "api_key" : "Pong11299",
+    "game_name" : "angeling40-29916",
+    "rang" : 60000,
+    "max_workers" : 40,
+    "time_sleep" : 0,
+    "reload": 100,
+    "timeout_request": 5,
+    "server_api" : "http://127.0.0.1:5000"
+}

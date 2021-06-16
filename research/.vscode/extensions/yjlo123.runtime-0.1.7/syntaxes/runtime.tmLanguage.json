@@ -1,0 +1,67 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Runtime Script",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#comment"
+		},
+		{
+			"include": "#label"
+		},
+		{
+			"include": "#variables"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#decimal"
+		},
+		{
+			"include": "#constant"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.runtime",
+				"match": "^[ \t]*(?:let|jmp|slp|tim|add|sub|mul|mod|div|len|psh|pop|pol|put|get|key|del|int|str|typ|prs|drw|drt|pxl|clr|prt|inp|rnd|j(?:eq|ne|lt|gt)|ife|ifg|els|fin|def|ret|end|cal|for|nxt|lod|sav)\\b"
+			}]
+		},
+		"comment": {
+			"name": "comment.runtime",
+			"match": "/.*$"
+		},
+		"label": {
+			"name": "entity.name.function.runtime",
+			"match": "^[ \t]*#[^\\s]*\\b"
+		},
+		"variables": {
+			"name": "variable.parameter.runtime",
+			"match": "\\$[^\\s]+"
+		},
+		"decimal": {
+			"name": "constant.character.runtime",
+			"match": "\\s-?\\d+\\b"
+		},
+		"constant": {
+			"name": "constant.character.runtime",
+			"match": "({}|\\[\\])"
+		},
+		"strings": {
+			"name": "string.quoted.double.runtime",
+			"begin": "(\"|')",
+			"end": "\\1",
+			"patterns": [
+				{
+					"name": "constant.character.escape.runtime",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.runtime"
+}

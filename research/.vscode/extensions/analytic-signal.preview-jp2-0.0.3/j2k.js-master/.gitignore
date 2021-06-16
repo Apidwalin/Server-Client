@@ -1,0 +1,7 @@
+build/*
+configure_
+configure_err
+make_
+make_err
+*~
+

@@ -1,0 +1,49 @@
+{
+	"name": "runtime",
+	"displayName": "Runtime",
+	"description": "Runtime Script language support",
+	"version": "0.1.7",
+	"publisher": "yjlo123",
+	"author": {
+		"name": "Liu Siwei"
+	},
+	"icon": "images/icon.png",
+	"engines": {
+		"vscode": "^1.50.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "runtime",
+				"aliases": [
+					"Runtime Script",
+					"runtime"
+				],
+				"extensions": [
+					"runtime"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "runtime",
+				"scopeName": "source.runtime",
+				"path": "./syntaxes/runtime.tmLanguage.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/yjlo123/runtime-vscode.git"
+	},
+	"__metadata": {
+		"id": "656dd95b-0eb3-408d-93a6-970b39f3fb0b",
+		"publisherId": "9afbf5c5-9299-4dc4-8348-228dc87d0ae4",
+		"publisherDisplayName": "Liu Siwei",
+		"installedTimestamp": 1622646847759
+	}
+}
