@@ -1,114 +1,150 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+/autom4te.cache/output.0
+/autom4te.cache/requests
+/autom4te.cache/traces.0
+#Global
+.Apple*
+.DS_Store
+.clang_complete
+.local.vimrc
+.ycm_extra_conf.py*
+Thumbs.db
 
-# C extensions
-*.so
+# /
+/*_fifo
+/*.exe
+/*.exe.*
+/*.ilk
+/*.log
+/*.ncb
+/*.opensdf
+/*.opt
+/*.pdb
+/*.pid
+/*.sdf
+/*.stackdump
+/*.suo
+*.o
+*.a
+*.yml
+/char-server
+/config.log
+/config.status
+/core
+/enc_temp_folder
+/ipch
+/login-server
+/Makefile
+/Makefile.cache
+/map-server
+/mapcache
+/nbproject
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+# /3rdparty/libconfig/
+/3rdparty/libconfig/Makefile
+/3rdparty/libconfig/*.o
+/3rdparty/libconfig/obj
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+# /3rdparty/mt19937ar/
+/3rdparty/mt19937ar/Makefile
+/3rdparty/mt19937ar/*.o
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# /db/
+/db/import
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
+# /conf/
+/conf/import
+/conf/msg_conf/import
 
-# Translations
-*.mo
-*.pot
+# /log/
+/log/*.log
+/log/*.leaks
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
+# /src/char/
+/src/char/Makefile
+/src/char/obj_sql
 
-# Flask stuff:
-instance/
-.webassets-cache
+# /src/common/
+/src/common/Makefile
+/src/common/obj_all
+/src/common/obj_sql
+/src/common/svnversion.h
 
-# Scrapy stuff:
-.scrapy
+# /src/custom/
+/src/custom
 
-# Sphinx documentation
-docs/_build/
+# /src/login/
+/src/login/Makefile
+/src/login/obj_sql
 
-# PyBuilder
-target/
+# /src/map/
+/src/map/Makefile
+/src/map/obj_sql
+/src/map/pcre.h
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# /src/test/
+/src/test/Makefile
+/src/test/obj
 
-# IPython
-profile_default/
-ipython_config.py
+# /src/tool/
+/src/tool/Makefile
+/src/tool/obj_all
 
-# pyenv
-.python-version
+# /tools/
+/tools/convert
+/tools/adduser
+/tools/*.exe
+/tools/*.ilk
+/tools/*.pdb
 
-# celery beat schedule file
-celerybeat-schedule
+# /vcproj-15/
+/vcproj-15/char-server
+/vcproj-15/login-server
+/vcproj-15/mapcache
+/vcproj-15/map-server
+/vcproj-15/*.user
 
-# SageMath parsed files
-*.sage.py
+# /vcproj-14/
+.vs
+*.VC.db
+*.VC.opendb
+/vcproj-14/char-server
+/vcproj-14/login-server
+/vcproj-14/mapcache
+/vcproj-14/map-server
+/vcproj-14/*.user
 
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+# /vcproj-13/
+/vcproj-13/char-server
+/vcproj-13/login-server
+/vcproj-13/mapcache
+/vcproj-13/map-server
+/vcproj-13/*.user
 
-# Spyder project settings
-.spyderproject
-.spyproject
+# /vcproj-12/
+/vcproj-12/char-server
+/vcproj-12/login-server
+/vcproj-12/mapcache
+/vcproj-12/map-server
+/vcproj-12/*.user
 
-# Rope project settings
-.ropeproject
+# /vcproj-10/
+/vcproj-10/char-server
+/vcproj-10/login-server
+/vcproj-10/mapcache
+/vcproj-10/map-server
+/vcproj-10/*.user
 
-# mkdocs documentation
-/site
+# /vcproj-9/
+/vcproj-9/*.user
+/vcproj-9/char-server
+/vcproj-9/login-server
+/vcproj-9/map-server
+/vcproj-9/mapcache
+/.idea/.name
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/rathena.iml
+/.idea/vcs.xml
+/.idea/workspace.xml
+/build/
 
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
